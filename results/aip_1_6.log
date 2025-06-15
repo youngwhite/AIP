@@ -1,0 +1,89 @@
+--Fine-tuning model for fold 1...
+
+--seed:6, esc50_1, ast, Base Params: 86225714, Accuracy: 95.75%
+layer: 7, params: 50786354, acc: 93.75%
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 3, head_dim: 64, all_head_size: 192
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 4, head_dim: 64, all_head_size: 256
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 6, head_dim: 64, all_head_size: 384
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 8, head_dim: 64, all_head_size: 512
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 8, head_dim: 64, all_head_size: 512
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 7, head_dim: 64, all_head_size: 448
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 6, head_dim: 64, all_head_size: 384
+📉 head_pruning_ratio:0.5000, Params:25432388, Acc:92.75%
+
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 5, head_dim: 64, all_head_size: 320
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 6, head_dim: 64, all_head_size: 384
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+
+📉 head_pruning_ratio:0.2500, Params:29565188, Acc:93.75%
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 4, head_dim: 64, all_head_size: 256
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 4, head_dim: 64, all_head_size: 256
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 8, head_dim: 64, all_head_size: 512
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 8, head_dim: 64, all_head_size: 512
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 8, head_dim: 64, all_head_size: 512
+
+📉 head_pruning_ratio:0.3750, Params:27400388, Acc:92.50%
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 5, head_dim: 64, all_head_size: 320
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 5, head_dim: 64, all_head_size: 320
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 8, head_dim: 64, all_head_size: 512
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 8, head_dim: 64, all_head_size: 512
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 11, head_dim: 64, all_head_size: 704
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+
+📉 head_pruning_ratio:0.3125, Params:28384388, Acc:93.00%
+🛑 Stop: Param count 28384388 already seen (±1000000)
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 5, head_dim: 64, all_head_size: 320
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 6, head_dim: 64, all_head_size: 384
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+
+📉 pruning_ratio:0.5000, Params:21139354, Acc:90.50%
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 5, head_dim: 64, all_head_size: 320
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 6, head_dim: 64, all_head_size: 384
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+
+📉 pruning_ratio:0.2500, Params:25272347, Acc:92.75%
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 5, head_dim: 64, all_head_size: 320
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 6, head_dim: 64, all_head_size: 384
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+
+📉 pruning_ratio:0.1250, Params:27384185, Acc:93.25%
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 5, head_dim: 64, all_head_size: 320
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 6, head_dim: 64, all_head_size: 384
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+
+📉 pruning_ratio:0.1875, Params:26319044, Acc:92.75%
+[model.audio_spectrogram_transformer.encoder.layer.0.attention.attention] -> num_heads: 5, head_dim: 64, all_head_size: 320
+[model.audio_spectrogram_transformer.encoder.layer.1.attention.attention] -> num_heads: 6, head_dim: 64, all_head_size: 384
+[model.audio_spectrogram_transformer.encoder.layer.2.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.3.attention.attention] -> num_heads: 9, head_dim: 64, all_head_size: 576
+[model.audio_spectrogram_transformer.encoder.layer.4.attention.attention] -> num_heads: 10, head_dim: 64, all_head_size: 640
+[model.audio_spectrogram_transformer.encoder.layer.5.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+[model.audio_spectrogram_transformer.encoder.layer.6.attention.attention] -> num_heads: 12, head_dim: 64, all_head_size: 768
+
+📉 pruning_ratio:0.1562, Params:26855457, Acc:93.00%
+🛑 Stop: Param count 26855457 already seen (±1000000)
+params: 50786354, acc: 93.75%
+Results saved to results/AIP-esc50-ast-fold_1-seed_6.csv, total time: 34897.78s
