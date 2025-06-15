@@ -5,7 +5,7 @@ This repository provides the implementation of **Adaptive Inference Pruning (AIP
 All results and visualizations are saved to the `results/` directory.
 
 ---
-## Example: Pregressive Pruning using ADP + AIP
+## Example: Pregressive Pruning AST with Dataset ESC-50 using ADP + AIP
 ![Pruning Curve](AIP-esc50-ast-fold_1-seed_6.svg)
 
 
