@@ -1,4 +1,4 @@
-# Adaptive Inference Pruning (AIP)
+# Adaptive Fine-grained Pruning (AIP)
 
 This repository provides the implementation of **Adaptive Inference Pruning (AIP)** and **Adaptive Depth-wise Pruning (ADP)** for efficient structured pruning of audio models, such as the Audio Spectrogram Transformer (AST). Our method supports both layer-level pruning and fine-grained intra-layer pruning (e.g., attention heads, FFN units), under a performance constraint.
 
